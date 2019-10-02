@@ -6,4 +6,4 @@ before_install:
   - docker build -t blueseal/udemy-docker-react -f Dockerfile.dev .
 
 script:
-  - docker run blueseal/udemy-docker-react npm run test -- --coverage
+  - docker run -e CI=true blueseal/udemy-docker-react npm run test
