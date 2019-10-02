@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        Bye there, twice!
+        Hello from "feature" branch
       </header>
     </div>
   );
